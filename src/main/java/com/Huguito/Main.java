@@ -1,7 +1,7 @@
 package com.Huguito;
 
 
-import com.Huguito.practica01.Mascota;
+import com.Huguito.practica01.Miperrito;
 
 public class Main {
     public static void main(String[] args) {
@@ -193,20 +193,15 @@ public class Main {
         */
 
 
-        Mascota mas = new Mascota("Firu", "chizu", 3);
+        Miperrito pe = new Miperrito("Huguito", "fino", 30);
 
-        System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
-        System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
+        System.out.println(pe.mostrarInfo());
+        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());
+        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());
 
-        System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
 
-        System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
 
-        System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
-        System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
 
-        System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
-        System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
 
 
 
