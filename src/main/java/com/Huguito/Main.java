@@ -1,7 +1,7 @@
 package com.Huguito;
 
 
-
+import com.Huguito.practica01.Mascota;
 
 public class Main {
     public static void main(String[] args) {
@@ -167,7 +167,7 @@ public class Main {
                 System.out.println("Ocurrió un error: " + e.getMessage());
             }
 
-        */
+
 
 
         int numb1 = 50;
@@ -190,7 +190,12 @@ public class Main {
 
 
 
+        */
 
+
+        Mascota mas = new Mascota("Firu", "chizu", 3);
+
+        System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
 
 
     }
