@@ -196,6 +196,21 @@ public class Main {
         Mascota mas = new Mascota("Firu", "chizu", 3);
 
         System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
+        System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
+
+        System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
+
+        System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
+
+        System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
+        System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
+
+        System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
+        System.out.println(mas.mostrarInfo() + " " + mas.cumplirAnos());
+
+
+
+
 
 
     }
