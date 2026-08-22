@@ -1,7 +1,13 @@
 package com.Huguito;
 
 
+import com.Huguito.poo.problem02.ItemNoDisponibleException;
 import com.Huguito.practica01.Miperrito;
+import com.Huguito.practica01.Persona;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
@@ -190,21 +196,161 @@ public class Main {
 
 
 
+
+
+
+//        Miperrito pe = new Miperrito("Huguito", "fino", 30);
+//
+//        System.out.println(pe.mostrarInfo());
+//        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());
+//        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());
+
+
+
+
+//      sintaxis de un array es: tipoDeDato[] nombre =  new tipoDeDato[10]; ese 10 indica el numoero
+//      elementos que va a tener ese array
+
+
+
+//        miArray[0] = 15;     int[] miArray = {15, 25, 8, -7, 92};
+//        miArray[1] = 25;
+//        miArray[2] = 8;
+//        miArray[3] = -7;
+//        miArray[4] = 92;
+
+
+
+//        List<Persona> listaArray = new LinkedList<Persona>();
+//        listaArray.add(new Persona(2, "Huguito", 20));
+//        listaArray.add(new Persona(3, "Putin", 40));
+//        listaArray.add(new Persona(4, "Goku", 10));
+//        listaArray.add(new Persona(1, "luisina", 30));
+//
+//
+//
+//        LinkedList<Persona> linstaLinked = new LinkedList<Persona>();
+//        linstaLinked.add(new Persona(1, "luisina", 30));
+//        linstaLinked.add(new Persona(2, "Huguito", 20));
+//        linstaLinked.add(new Persona(3, "Putin", 40));
+//        linstaLinked.add(new Persona(4, "Goku", 10));
+//
+//
+//        listaArray.remove(1);
+//
+//
+//        String nombreBorrar = "luisina";
+//        for(Persona persona2 : linstaLinked){
+//            if(persona2.getNombre().equals(nombreBorrar)){
+//                linstaLinked.remove(persona2);
+//                break;
+//            }
+//        }
+//
+//
+//        for(Persona persona : listaArray){
+//            System.out.println("Prueba " + persona.getNombre());
+//        }
+//
+//        System.out.println("************************");
+//
+//        for(Persona persona : linstaLinked){
+//            System.out.println("Prueba " + persona.getNombre());
+//        }
+//
+//
+//        System.out.println("************************");
+//
+//        System.out.println("ArrayList: " + listaArray.size());
+//        System.out.println("ArrayList: " + linstaLinked.size());
+//
+//        System.out.println("************************");
+//
+//        System.out.println("ArrayList: " + listaArray.getFirst().toString());
+//        System.out.println("ArrayList: " + listaArray.getLast().toString());
+//
+//        System.out.println("************************");
+//
+//        System.out.println("ArrayList: " + linstaLinked.getFirst().toString());
+//        System.out.println("ArrayList: " + linstaLinked.getLast().toString());
+//
+//        System.out.println("************************");
+//
+//        listaArray.clear();
+//        linstaLinked.clear();
+//
+//
+//        System.out.println("************************");
+//
+//        System.out.println(listaArray.isEmpty());
+//        System.out.println(linstaLinked.isEmpty());
+
+
+        int[] arre = {22,35,31,56,65,765,7,34,766,98,32};
+
+
+        for(int i : arre){
+            if(i % 2 == 0){
+                System.out.println(" ");
+            } else{
+                System.out.println(i);
+
+            }
+        }
+
+        System.out.println("************************");
+
+        ArrayList<producto> carrito = new ArrayList<producto>();
+        carrito.add(new producto("manzana", "pera", "naranja"));
+        carrito.add(new producto("uva", "durazno", "limon"));
+        carrito.add(new producto("lechuga", "papa", "aji"));
+        carrito.add(new producto("rocoto", "alverja", "tomate"));
+
+        System.out.println(carrito.size());
+
+        System.out.println("************************");
+
+        carrito.remove(2);
+
+        System.out.println("************************");
+
+        for(producto car : carrito){
+            System.out.println(car);
+        }
+
         */
 
 
-        Miperrito pe = new Miperrito("Huguito", "fino", 30);
-
-        System.out.println(pe.mostrarInfo());
-        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());
-        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());        System.out.println(pe.mostrarInfo());
+        int[] par = {14, 8 , 33, 2 , 99, 45, 12, 7, 50, 21};
 
 
 
 
+        int mayor = par[0];
+
+        for(int i = 1; i < par.length; i++){
+            if(par[i] > mayor){
+               mayor = par[i];
+            }
+
+        }
+        System.out.println(mayor);
 
 
 
+
+        ArrayList<String> asis = new ArrayList<>();
+        asis.add(0,"Juan");
+        asis.add(1,"pepito");
+        asis.add(2,"maria");
+        asis.add(3,"lucia");
+        asis.add(4,"luisina");
+
+        asis.add(2,"PTM");
+
+        for(String li : asis){
+            System.out.println(li);
+        }
 
 
 
